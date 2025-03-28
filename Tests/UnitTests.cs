@@ -40,4 +40,16 @@ public class Subtraction
 	}
 }
 
+[TestClass]
+public class Multiply
+{
+	[TestMethod]
+	public void Multiply_Valid_Patino()
+	{
+		Assert.AreEqual(8, Program.Multiply("4", "2"));
+		Assert.AreEqual(30, Program.Multiply("10", "3"));
+		Assert.AreEqual(35, Program.Multiply("5", "7"));
+	}
+}
+
 
